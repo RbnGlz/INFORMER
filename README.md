@@ -4,7 +4,7 @@ This repository contains the `Informer` model implementation.
 
 ## Running tests
 
-To execute the unit tests, install the test dependencies (e.g. `pytest`) if not already installed and run:
+To execute the unit tests, install the test dependencies (`pytest` and `torch`) if they are not already installed and run:
 
 ```bash
 pytest
