@@ -19,9 +19,9 @@ from neuralforecast.common._modules import (
     DataEmbedding,
     AttentionLayer,
 )
-from ..common._base_model import BaseModel
+from neuralforecast.common._base_model import BaseModel
 
-from ..losses.pytorch import MAE
+from neuralforecast.losses.pytorch import MAE
 
 # %% ../../nbs/models.informer.ipynb 8
 class ConvLayer(nn.Module):
