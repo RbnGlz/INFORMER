@@ -118,16 +118,15 @@ print(forecast.tail(10))
 
 ```
 INFORMER/
-├── data/                  # Conjuntos de datos de ejemplo
 ├── images/                # Diagramas e ilustraciones para el README
-├── models/                # Implementación de la clase Informer
-│   └── informer.py
+├── informer.py            # Implementación de la clase Informer
+├── nbs/                   # Notebooks de ejemplo
+├── neuralforecast/        # Componentes auxiliares del modelo
+│   ├── common/
+│   └── losses/
 ├── tests/                 # Pruebas unitarias (pytest)
-│   └── test_informer.py
-├── scripts/               # Scripts de entrenamiento y evaluación
-├── notebooks/             # Notebooks de ejemplo y experimentos
-├── README.md              # Documentación principal
-└── requirements.txt       # Dependencias
+├── requirements.txt       # Dependencias
+└── readme.md              # Documentación principal
 ```
 
 ## Pruebas unitarias (pytest)
