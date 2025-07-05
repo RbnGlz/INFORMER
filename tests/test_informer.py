@@ -19,7 +19,7 @@ de errores o comportamientos inesperados.
 import torch
 import pytest
 
-from informer import Informer
+from src.informer import Informer
 
 # =======================
 # Prueba de la salida del modelo

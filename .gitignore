@@ -1,26 +1,96 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
-
-# Distribution / packaging
+*$py.class
+*.so
 .Python
 build/
+develop-eggs/
 dist/
-*.egg-info/
+downloads/
+eggs/
 .eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Jupyter Notebook checkpoints
+# PyTorch
+*.pth
+*.pt
+lightning_logs/
+mlruns/
+checkpoints/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
-# Virtual environments
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment
+.env
+.venv
 env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 *.venv
 
-# VSCode and other IDEs
-.vscode/
-.idea/
+# Documentation
+docs/_build/
+site/
+.readthedocs.yml
 
-# Mac OS
-.DS_Store
+# Data
+data/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Security reports
+bandit-report.json
+safety-report.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log

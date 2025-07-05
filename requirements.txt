@@ -1,3 +1,2 @@
-torch
-numpy
-neuralforecast
+# For backward compatibility - use requirements/base.txt for new installations
+-r requirements/base.txt
